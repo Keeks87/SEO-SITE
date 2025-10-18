@@ -10,4 +10,3 @@
 │ └─ (your images)
 ├─ CNAME # optional if you use a custom domain
 └─ README.md
-
