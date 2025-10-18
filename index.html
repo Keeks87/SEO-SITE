@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keenan du Plessis – Portfolio</title>
+    <meta name="description" content="Portfolio of Keenan du Plessis – SEO, technical marketing, and web projects." />
+    <link rel="preload" href="/assets/styles.css" as="style" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="icon" href="/assets/images/favicon.png" />
+</head>
+<body>
+    <header class="container">
+    <nav class="nav">
+        <a class="brand" href="/">Keenan du Plessis</a>
+        <button id="themeToggle" aria-label="Toggle theme">◐</button>
+    </nav>
+    </header>
+
+    <main class="container">
+    <section class="hero">
+        <h1>SEO & Tech Marketing with a developer’s toolkit</h1>
+        <p>I ship fast, measurable improvements across SEO, CRO, and content systems—and I build the tooling to scale it.</p>
+        <div class="cta-row">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn" href="#contact">Contact</a>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Highlighted projects</h2>
+        <div class="grid">
+        <article class="card">
+            <h3>HyperionDev SEO Revamp</h3>
+            <p>Full SEO & lead-gen audit with structured data, performance, and internal linking strategy.</p>
+            <a class="chip" href="https://www.hyperiondev.com" target="_blank" rel="noopener">Case overview →</a>
+        </article>
+        <article class="card">
+            <h3>Portfolios & Landing Pages</h3>
+            <p>Fast static pages on GitHub Pages/Netlify with A/B variants and analytics.</p>
+            <a class="chip" href="/projects.html">See more →</a>
+        </article>
+        <article class="card">
+            <h3>Django → Static Migrations</h3>
+            <p>Converted dynamic front ends to static for instant TTFB and simpler hosting.</p>
+            <span class="chip">Guide soon</span>
+        </article>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>About</h2>
+        <p>Technical Marketing Associate at CoGrammar (consultant). Python/Django strong; levelling up React/JS. I design pragmatic growth systems and clean, fast front ends.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/your-id" method="POST" class="card form">
+        <label>Name <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button class="btn primary" type="submit">Send</button>
+        </form>
+    </section>
+    </main>
+
+    <footer class="container footer">
+    <small>© <span id="year"></span> Keenan du Plessis • <a href="https://github.com/Keeks87" target="_blank" rel="noopener">GitHub</a></small>
+    </footer>
+
+    <script src="/assets/main.js" defer></script>
+</body>
+</html>
